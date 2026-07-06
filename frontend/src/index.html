@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Initech Cloud - Sign in</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="login-page">
+  <div class="login-card">
+    <div class="login-brand">
+      <span class="logo-mark">IC</span>
+      <span class="brand-name">Initech Cloud</span>
+    </div>
+    <h1>Sign in</h1>
+    <p class="subtitle">Use your organizational account to access the console.</p>
+
+    <div class="error-banner" id="error-banner"></div>
+
+    <form id="login-form">
+      <div class="field">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="e.g. j.intern" autocomplete="username" />
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" autocomplete="current-password" />
+      </div>
+      <button type="submit" class="btn full-width">Sign in</button>
+    </form>
+
+    <p class="login-footnote">
+      Connected to API at <span id="api-host"></span>:8000<br />
+      Training lab build - not a real cloud provider.
+    </p>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
