@@ -169,6 +169,10 @@ From the repo root:
 ------------------------------------------------------------------------------
 
   SCENARIO.md       - the fictional engagement brief
-  PENTEST.txt       - guided, tool-by-tool tutorial for exploiting this lab
+  PENTEST.txt       - guided, tool-by-tool tutorial (assumed-breach/graybox,
+                      starts from the j.intern credential above)
+  PENTEST_BLACKBOX.txt - same tutorial style, but for a zero-knowledge
+                      external assessment: no credential handed to you at
+                      all, just the target IP
   VULNERABILITIES.md - full instructor answer key for every bug
 ==============================================================================
